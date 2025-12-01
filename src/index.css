@@ -1,0 +1,106 @@
+:root {
+  --color-bg: #0f0f23;
+  --color-text: #cccccc;
+  --color-text-bright: #ffffff;
+  --color-gold: #ffff66;
+  --color-gold-dim: #f1c40f;
+  --color-green: #00cc00;
+  --color-red: #ff0000;
+  --color-link: #009900;
+  --color-link-hover: #99ff99;
+  --font-mono: "Source Code Pro", monospace;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-text-bright);
+  text-shadow: 0 0 2px var(--color-gold);
+}
+
+h1 {
+  color: var(--color-gold);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header-decoration {
+  color: var(--color-green);
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background: transparent;
+  border: 1px solid var(--color-green);
+  color: var(--color-green);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  margin-right: 1rem;
+  transition: all 0.2s;
+}
+
+button:hover, button.active {
+  background: var(--color-green);
+  color: var(--color-bg);
+  box-shadow: 0 0 5px var(--color-green);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  color: var(--color-text-bright);
+  border-bottom: 1px solid var(--color-text);
+}
+
+.star-gold {
+  color: var(--color-gold);
+}
+
+.star-silver {
+  color: #9999cc;
+}
+
+.rank-1 { color: var(--color-gold); text-shadow: 0 0 5px var(--color-gold); }
+.rank-2 { color: #c0c0c0; }
+.rank-3 { color: #cd7f32; }
+
+.log-time {
+  color: var(--color-text);
+  font-size: 0.9em;
+}
+
+.log-new {
+  animation: flash 2s infinite;
+}
+
+@keyframes flash {
+  0% { text-shadow: 0 0 5px var(--color-gold); }
+  50% { text-shadow: none; }
+  100% { text-shadow: 0 0 5px var(--color-gold); }
+}

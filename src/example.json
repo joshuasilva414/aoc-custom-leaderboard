@@ -1,0 +1,167 @@
+{
+"owner_id": 4598107,
+"day1_ts": 1764565200,
+"members": {
+"948059": {
+"name": "Jonathan de Koning",
+"completion_day_level": {
+"1": {
+"1": {
+"get_star_ts": 1764565340,
+"star_index": 0
+},
+"2": {
+"star_index": 1,
+"get_star_ts": 1764565535
+}
+}
+},
+"local_score": 26,
+"last_star_ts": 1764565535,
+"stars": 2,
+"id": 948059
+},
+"2465069": {
+"id": 2465069,
+"stars": 2,
+"last_star_ts": 1764596167,
+"local_score": 20,
+"completion_day_level": {
+"1": {
+"1": {
+"star_index": 6,
+"get_star_ts": 1764595751
+},
+"2": {
+"get_star_ts": 1764596167,
+"star_index": 7
+}
+}
+},
+"name": "Whalien3520"
+},
+"3075893": {
+"local_score": 0,
+"last_star_ts": 0,
+"completion_day_level": {},
+"name": "Matthew Anderson",
+"id": 3075893,
+"stars": 0
+},
+"3119925": {
+"completion_day_level": {
+"1": {
+"1": {
+"star_index": 8,
+"get_star_ts": 1764606801
+},
+"2": {
+"star_index": 9,
+"get_star_ts": 1764615442
+}
+}
+},
+"name": "Joshua Silva",
+"local_score": 18,
+"last_star_ts": 1764615442,
+"stars": 2,
+"id": 3119925
+},
+"3529746": {
+"completion_day_level": {},
+"name": "Markus Bao",
+"last_star_ts": 0,
+"local_score": 0,
+"stars": 0,
+"id": 3529746
+},
+"4419250": {
+"stars": 0,
+"id": 4419250,
+"completion_day_level": {},
+"name": "Sean Roberson",
+"local_score": 0,
+"last_star_ts": 0
+},
+"4434499": {
+"stars": 2,
+"id": 4434499,
+"name": "Lermatroid",
+"completion_day_level": {
+"1": {
+"1": {
+"star_index": 4,
+"get_star_ts": 1764567795
+},
+"2": {
+"star_index": 5,
+"get_star_ts": 1764570948
+}
+}
+},
+"local_score": 22,
+"last_star_ts": 1764570948
+},
+"4524665": {
+"name": "Quantabyte",
+"completion_day_level": {
+"1": {
+"1": {
+"star_index": 2,
+"get_star_ts": 1764566035
+},
+"2": {
+"star_index": 3,
+"get_star_ts": 1764566980
+}
+}
+},
+"last_star_ts": 1764566980,
+"local_score": 24,
+"stars": 2,
+"id": 4524665
+},
+"4593008": {
+"id": 4593008,
+"stars": 0,
+"last_star_ts": 0,
+"local_score": 0,
+"name": "Teagan Smith",
+"completion_day_level": {}
+},
+"4598107": {
+"name": "ACM UTSA",
+"completion_day_level": {},
+"local_score": 0,
+"last_star_ts": 0,
+"stars": 0,
+"id": 4598107
+},
+"4602880": {
+"id": 4602880,
+"stars": 0,
+"local_score": 0,
+"last_star_ts": 0,
+"name": "Andrea Celeste Mendez",
+"completion_day_level": {}
+},
+"4603821": {
+"completion_day_level": {},
+"name": "Oliver D",
+"last_star_ts": 0,
+"local_score": 0,
+"stars": 0,
+"id": 4603821
+},
+"4662155": {
+"local_score": 0,
+"last_star_ts": 0,
+"name": "Nathan Nieman",
+"completion_day_level": {},
+"id": 4662155,
+"stars": 0
+}
+},
+"num_days": 12,
+"event": "2025"
+}
