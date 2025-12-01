@@ -5,7 +5,7 @@ import type { AoCData, Member, LogEntry } from './utils/aoc-data';
 import exampleJson from './example.json';
 
 // Components
-const Leaderboard = ({ members, sortMethod }: { members: Member[], sortMethod: 'local' | 'stars' }) => {
+const Leaderboard = ({ members }: { members: Member[] }) => {
   return (
     <table>
       <thead>
@@ -166,7 +166,7 @@ function App() {
               Stars
             </button>
           </div>
-          <Leaderboard members={getSortedMembers()} sortMethod={sortMethod} />
+          <Leaderboard members={getSortedMembers()} />
         </>
       )}
 
