@@ -132,7 +132,7 @@ function App() {
       <div className="header-decoration">
         ~*~ Advent of Code 2025 ~*~
       </div>
-      <h1>Custom Leaderboard</h1>
+      <h1>ACM Leaderboard</h1>
       
       <div style={{ marginBottom: '1rem', display: 'flex', justifyContent: 'center' }}>
         <button 
